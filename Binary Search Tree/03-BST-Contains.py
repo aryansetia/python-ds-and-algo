@@ -32,7 +32,7 @@ class BinarySearchTree:
 
 
   	def contains(self, value):
-  		if self.root is None:
+  		if self.root is None: # if tree is empty we will return false
   			return False
   		temp = self.root 
   		while(temp is not None):
@@ -44,6 +44,8 @@ class BinarySearchTree:
   				return True
 
   		return False
+
+  	 
 
 
 
